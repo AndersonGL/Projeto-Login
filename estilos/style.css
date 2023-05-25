@@ -20,6 +20,8 @@ Lilás: #5f2c82;
 
 }
 
+
+
 body, html {
 
     background-color: #5f2c82;
@@ -59,7 +61,7 @@ section#login {
 section#login > div#imagem {
 
     display: block;
-    background-color: #5f2c82 url(../imagens/metal.jpg) no-repeat;
+    background-color: #5f2c82 url(../imagens/fotopredio.jpg) no-repeat;
     background-size: couver;
     background-position: left bottom;
     height: 200px;
