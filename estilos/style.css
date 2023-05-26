@@ -4,9 +4,9 @@
 
 PALETAS DE CORES
 
-   dark-blue: #00132E
-   Blue: #002961
-   lilás: #4E5088
+Verde: #49a09d;
+Lilás: #5f2c82; 
+
 
 */
 
@@ -18,7 +18,7 @@ PALETAS DE CORES
 }
 
 body, html {
-    background-color: #4E5088  ;
+    background-color: #5f2c82 ;
     height: 100vh;
     width: 100vw;
 }
@@ -35,7 +35,7 @@ section#login {
     left: 50%;
     overflow: hidden;
 
-    background-color: white;
+    background-color: #fff;
     width: 256px;
     height: 500px;
     border-radius: 20px;
@@ -48,7 +48,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #4E5088 url(../imagens/fotopredio.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/fotopredio.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 200px;
@@ -69,8 +69,8 @@ div#formulario > p {
 }
 
 form > div.campo {
-    background-color: #4E5088;
-    border: 2px solid #4E5088;
+    background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     display: block;
     width: 100%;
     height: 40px;
@@ -110,7 +110,7 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #002861f1;
+    background-color: #49a09d;
     color: white;
     border: none;
     border-radius: 5px;
@@ -118,7 +118,7 @@ form > input[type=submit] {
 }
 
 form > input[type=submit]:hover {
-    background-color: #000c1c;
+    background-color: #23504e;
 }
 
 form > a.botao {
@@ -129,15 +129,15 @@ form > a.botao {
     height: 40px;
     padding-top: 5px;
     margin-top: 5px;
-    background-color: #002861f1;
+    background-color:#49a09d;
     color: white;
-    border: 1px solid #002861f1;
+    border: 1px solid #49a09d ;
     border-radius: 7px;
     text-decoration: none;
 }
 
 form > a.botao:hover {
-    background-color: #000c1c;
+    background-color: #69e6e1 ;
 }
 
 form > a.botao > span {
